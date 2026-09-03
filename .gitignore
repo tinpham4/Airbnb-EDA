@@ -1,0 +1,18 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Raw dataset contains sensitive listing descriptions and credentials
+data/
+
+# Local editor and notebook files
+.vscode/
+.ipynb_checkpoints/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
